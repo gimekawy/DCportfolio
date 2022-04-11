@@ -80,9 +80,9 @@ new Glider(document.querySelector('.glider'), {
 
 // glide
 
-import Glide from '@glidejs/glide';
+// import Glide from '@glidejs/glide';
 
-new Glide('.glide').mount();
+// new Glide('.glide').mount();
 
 // import Glide, { Controls, Breakpoints } from '@glidejs/glide/dist/glide.modular.esm'
 
