@@ -592,7 +592,7 @@ span {
   }
 }
 
-@media (min-width: 1224px) {
+@media (min-width: 1600px) {
   #about .about__container .about__content {
     width: 60%;
   }
