@@ -1,0 +1,117 @@
+$xxs:"(max-width: 350px)";
+$xs:"(max-width: 351px) and (max-width: 453px)";
+$s:"(min-width: 454px) and (max-width: 768px)";   
+$m:"(min-width: 769px) and (max-width: 1023px)";
+$l:"(min-width: 1024px) and (max-width: 1023px)";
+$xl:"(min-width: 1024px) and (max-width: 1365px)";
+$xxl:"(min-width: 1366px) and (max-width: 1919px)";
+$xxxl:"(min-width: 1920px)";
+
+    $section-title: #775b26;
+    
+    .portfolio {
+        background: #ffffff;
+        text-align: center;
+        
+    }
+
+    .portfolio__img {
+
+        // border-radius: 1em;
+        margin: 1em 0;
+
+        /* Portrait */
+        @media screen and (orientation:portrait) {
+            /* Portrait styles here */
+            width:98%;
+            
+        }
+        /* Landscape */
+        @media screen and (orientation:landscape) {
+            /* Landscape styles here */
+            width:auto;
+            height: 100vh;
+        }
+        @media (min-width: 1024px) {
+            width: auto;
+            height: 60vh;
+        }
+    }
+
+
+
+    .img__more__cont {
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 1em 0;
+        margin: 0.5em auto;
+        
+        .img__more {
+            object-fit: cover;
+            filter: brightness(100%);
+            &:hover{
+               filter: brightness(70%); 
+               transition: all 1s ease;
+               
+            }
+        /* Portrait */
+        @media screen and (orientation:portrait) {
+            /* Portrait styles here */
+            width:92vw;
+            height:92vw;
+            
+        }
+        // /* Landscape */
+        @media screen and (orientation:landscape) {
+        //     /* Landscape styles here */
+            width:92vw;
+            height: 92vh;
+        }
+        
+        @media (min-width: 1024px) {
+            width: 80vh;
+            height: 80vh;
+        }
+     }
+
+    
+    }
+
+    .img__more__title {
+        position: absolute;
+        
+        font-family: adorn-condensed-sans, sans-serif;
+        font-weight: 400;
+        font-style: normal;
+
+        color: #f3e8d5f5;
+        text-shadow: 0px 0px 1px #1c0c03;
+        text-transform: uppercase;
+        font-size: 4em;
+        margin-top: -.4em;
+        display: block;
+        text-align: center;
+    }
+
+
+//     <section class="portfolio">
+    
+//     <div class="portfolio__container transition3">
+//         <h1 class="portfolio__title section__title">moje zdjęcia</h1>
+//         <a href="#"><img src="images/portfolio-3.jpg" alt="Fretastic" class="portfolio__img"></a>
+//         <a href="#"><img src="images/portfolio-4.jpg" alt="Fretastic" class="portfolio__img"></a>
+//         <a href="#"><img src="images/portfolio-5.jpg" alt="Fretastic" class="portfolio__img"></a>
+//         <a href="#"><img src="images/portfolio-6.jpg" alt="Fretastic" class="portfolio__img"></a>
+//         <a href="#"><img src="images/portfolio-7.jpg" alt="Fretastic" class="portfolio__img"></a>
+//         <a href="#"><img src="images/portfolio-8.jpg" alt="Fretastic" class="portfolio__img"></a>
+//         <a href="#"><img src="images/portfolio-9.jpg" alt="Fretastic" class="portfolio__img"></a>
+//         <a href="#"><img src="images/portfolio-10.jpg" alt="Fretastic" class="portfolio__img"></a>
+//         <a href="#"><img src="images/portfolio-11.jpg" alt="Fretastic" class="portfolio__img"></a>
+//         <a href="#"><img src="images/portfolio-12.jpg" alt="Fretastic" class="portfolio__img"></a>
+//         <a href="#"><img src="images/portfolio-13.jpg" alt="Fretastic" class="portfolio__img"></a>
+//         <a href="#"><img src="images/portfolio-14.jpg" alt="Fretastic" class="portfolio__img"></a>
+
+//     </div>
+//  </section>

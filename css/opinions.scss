@@ -1,0 +1,13 @@
+.glider {
+    overflow-x: hidden;
+}
+
+.glider__item {
+    background: #fbf7f0;
+    margin: 1em;
+    padding: 2em;
+}
+
+button .glider-dot.active {
+    background-color: $second-color;
+}

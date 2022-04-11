@@ -1,0 +1,10 @@
+.glider {
+  overflow-x: hidden;
+}
+
+.glider__item {
+  background: #fbf7f0;
+  margin: 1em;
+  padding: 2em;
+}
+/*# sourceMappingURL=opinions.css.map */

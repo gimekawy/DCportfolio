@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,OAAO,CAAC;EACJ,UAAU,EAAE,MAAM;CACrB;;AAED,AAAA,aAAa,CAAC;EACV,UAAU,EAAE,OAAO;EACnB,MAAM,EAAE,GAAG;EACX,OAAO,EAAE,GAAG;CACf",
+    "sources": [
+        "opinions.scss"
+    ],
+    "names": [],
+    "file": "opinions.css"
+}

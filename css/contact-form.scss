@@ -1,0 +1,71 @@
+$xxs:"(max-width: 350px)";
+$xs:"(max-width: 351px) and (max-width: 453px)";
+$s:"(min-width: 454px) and (max-width: 768px)";   
+$m:"(min-width: 769px) and (max-width: 1023px)";
+$l: "min-width: 1024px) and (max-width: 1023px";
+$xl:"(min-width: 1024px) and (max-width: 1365px)";
+$xxl:"(min-width: 1366px) and (max-width: 1919px)";
+$xxxl:"(min-width: 1920px)";
+
+
+.contact__section {
+    background: #fbf7f0;
+    margin: 0;
+
+    @media (min-width: 1024px) {
+        margin: 3em 0;
+    }
+    @media (min-width: 1440px) {
+        margin: 4em 0;
+    }
+    
+    
+}
+.contact__form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    // width:90%;
+
+    @media (min-width: 1024px) {
+        width: 700px;
+        margin: auto;
+    }
+    
+
+}
+
+.contact__form__container {
+    padding: 0.5em 0;
+}
+
+.input__line {
+    margin: .4em 1em 1em 1em;
+    padding: .5em;
+    width:90%;
+   
+    
+}
+
+.form__input {
+    display: block;
+    width: 100%;
+    padding: 0.5em;
+    border: none;
+    
+    
+}
+
+.contact__form__textarea {
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    
+}
+
+.wpcf7-submit  {
+    position: relative;
+    left: 50%;
+    transform: translateX(-57%);
+    margin: 2em 0 2em 0;
+}

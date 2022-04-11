@@ -1,0 +1,69 @@
+.contact__section {
+  background: #fbf7f0;
+  margin: 0;
+}
+
+@media (min-width: 1024px) {
+  .contact__section {
+    margin: 3em 0;
+  }
+}
+
+@media (min-width: 1440px) {
+  .contact__section {
+    margin: 4em 0;
+  }
+}
+
+.contact__form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+@media (min-width: 1024px) {
+  .contact__form {
+    width: 700px;
+    margin: auto;
+  }
+}
+
+.contact__form__container {
+  padding: 0.5em 0;
+}
+
+.input__line {
+  margin: .4em 1em 1em 1em;
+  padding: .5em;
+  width: 90%;
+}
+
+.form__input {
+  display: block;
+  width: 100%;
+  padding: 0.5em;
+  border: none;
+}
+
+.contact__form__textarea {
+  width: 100%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border: none;
+}
+
+.wpcf7-submit {
+  position: relative;
+  left: 50%;
+  -webkit-transform: translateX(-57%);
+          transform: translateX(-57%);
+  margin: 2em 0 2em 0;
+}
+/*# sourceMappingURL=contact-form.css.map */

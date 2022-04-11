@@ -1,0 +1,132 @@
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap');
+@import url("https://use.typekit.net/inc5mwt.css");
+
+@import "variables";
+@import "reset";
+@import "menu&hero";
+
+@import "about";
+@import "portfolio";
+@import "opinions";
+@import "contact-form";
+@import "footer";
+
+
+
+// #wrapper {
+//     max-width: 1600px;
+//     overflow-x: hidden;
+    
+    
+
+// }
+
+// LEGEND:
+
+// menu & hero => menu$hero.scss
+// categories => categories.scss
+// portfolio => portfolio.scss
+// contact form => contact-form.scss
+// footer => footer.scss
+
+
+
+
+
+
+//     @media only screen and (min-width: 1050px) {
+//         .hero {
+//             height: 90vh;
+//         }
+//     .nav-container {
+        
+        
+        
+//         header {
+//             background: #6700EE;
+//         }
+//     }
+//     header {
+//         padding: 2em 2em 2em 4em;
+//     }
+//     .social-header {
+//         padding: 2em 4em 2em 0;
+//     }
+//     section {
+//         padding: 4em;
+//     }
+    
+//     .social-header{
+//         display: block;
+
+//         ul {
+//             display: flex;
+//             justify-content: space-between;
+//             color: black;
+//             width: 7em;
+//             float: right;
+
+//             img {
+//                 width: 20px;
+//             }
+//         }
+//      }
+//      .hero {
+//          display: grid;
+//          grid-template-columns: 66% auto;
+//          background: unset;
+//          padding: 0;
+
+//          .content {
+//              background: #6E00FF;
+//              padding: 6em 8em 6em 4em;
+//              text-align: left;
+//              z-index: 2;
+
+//              h1 {
+//                  font-size: 3em;
+//                  line-height: 1.2;
+//              }
+//          }
+//      }
+//      .meet {
+//          margin: unset;
+//      }
+// }
+
+// @media only screen and (min-width: 1250px) {
+//     header {
+//         padding: 2em 2em 2em 10em;
+//     }
+//     .social-header {
+//         padding: 2em 10em 2em 0;
+//     }
+//     section {
+//         padding: 10em 10em 4em 10em;
+//     }
+//     .hero .content {
+//         padding: 6em 8em 6em 10em;
+//     }
+// }
+        
+// @media only screen and (min-width: 1550px) {
+//     header {
+//         padding: 2em 2em 2em 20em;
+//     }
+//     .social-header {
+//         padding: 2em 20em 2em 0;
+//     }
+//     section {
+//         padding: 20em 20em 4em 20em;
+//     }
+//     .hero .content {
+//         padding: 6em 8em 6em 20em;
+//     }
+// }
+    
+
+
+    

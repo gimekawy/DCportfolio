@@ -1,0 +1,122 @@
+
+#about {
+    background-color:#F5F1ED;
+    margin-left: 1em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    @media (min-width: 700px) {
+        width: 100%;
+        margin: auto;
+    }
+        @media (min-width: 1500px) {
+            width: 100%;
+            
+        }
+        .about__container {
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            align-items: center;
+        .about__header  {    
+            display: flex;
+            justify-content: center;
+            position: relative;
+            top: -1.2em;
+            padding: 0 0 2em 0;
+            width: 60%;
+
+            h1 {
+                
+                position: relative;
+                top: 0.5em; 
+                
+                }
+            
+            .portrait {
+                background: url("https://image.freepik.com/darmowe-zdjecie/ladna-i-delikatna-urocza-europejska-niezalezna-niezalezna-freelancerka-w-zoltej-koszulce-wzdychajaca-dotykajaca-szyi-i-patrzaca-marzycielsko-w-prawy-gorny-rog-z-przyjemnym-usmiechem-pozujaca-na-pomaranczowym-tle_1258-55255.jpg") 48% 15% no-repeat ;
+                position: relative;
+                top: -2em; 
+                width: 80px;
+                height: 80px;
+                background-color: #eeaaee;
+                border-radius: 50%;
+            }
+        }
+    .about__content {    
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        @media (min-width: 1024px) {
+        width: 80%;
+        }
+        @media (min-width: 1600px) {
+            width: 60%;
+        }
+    }
+        .about__content__container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            @media (min-width: 1024px) {
+                flex-direction: row;
+                }
+            .about__content__left {
+                @media (min-width: 800px) {
+                    width: 90%;
+                }
+                
+                @media (min-width: 1024px) {
+                    width: 60%;
+                    padding: 0 1em;
+                }
+            }
+            @media (min-width: 1024px) {    
+            .about__content__right {
+                  
+                    margin: auto;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                }
+                
+            }
+        }
+
+
+
+        p {
+
+
+            font-family: open-sans, sans-serif;
+            font-weight: 400;
+            font-style: normal;
+            font-size: 1em;
+            line-height: 1.5em;
+            display:inline-block;
+            padding: 0 1em 2em 1em;
+
+            @media (min-width: 1024px) { 
+                padding: 0 3em 2em 3em;
+            }
+            
+        }
+
+        img {
+        box-sizing: border-box;
+            width: 200px;
+            // position: relative;
+            // left: 50%; 
+            // transform: translate(-50%);
+            
+            @media (min-width: 1024px) {
+                width: 300px;
+            }
+        }
+
+    }
+}

@@ -1,0 +1,99 @@
+.portfolio {
+  background: #ffffff;
+  text-align: center;
+}
+
+.portfolio__img {
+  margin: 1em 0;
+  /* Portrait */
+  /* Landscape */
+}
+
+@media screen and (orientation: portrait) {
+  .portfolio__img {
+    /* Portrait styles here */
+    width: 98%;
+  }
+}
+
+@media screen and (orientation: landscape) {
+  .portfolio__img {
+    /* Landscape styles here */
+    width: auto;
+    height: 100vh;
+  }
+}
+
+@media (min-width: 1024px) {
+  .portfolio__img {
+    width: auto;
+    height: 60vh;
+  }
+}
+
+.img__more__cont {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 1em 0;
+  margin: 0.5em auto;
+}
+
+.img__more__cont .img__more {
+  -o-object-fit: cover;
+     object-fit: cover;
+  -webkit-filter: brightness(100%);
+          filter: brightness(100%);
+  /* Portrait */
+}
+
+.img__more__cont .img__more:hover {
+  -webkit-filter: brightness(70%);
+          filter: brightness(70%);
+  -webkit-transition: all 1s ease;
+  transition: all 1s ease;
+}
+
+@media screen and (orientation: portrait) {
+  .img__more__cont .img__more {
+    /* Portrait styles here */
+    width: 92vw;
+    height: 92vw;
+  }
+}
+
+@media screen and (orientation: landscape) {
+  .img__more__cont .img__more {
+    width: 92vw;
+    height: 92vh;
+  }
+}
+
+@media (min-width: 1024px) {
+  .img__more__cont .img__more {
+    width: 80vh;
+    height: 80vh;
+  }
+}
+
+.img__more__title {
+  position: absolute;
+  font-family: adorn-condensed-sans, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #f3e8d5f5;
+  text-shadow: 0px 0px 1px #1c0c03;
+  text-transform: uppercase;
+  font-size: 4em;
+  margin-top: -.4em;
+  display: block;
+  text-align: center;
+}
+/*# sourceMappingURL=portfolio.css.map */
